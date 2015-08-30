@@ -503,6 +503,32 @@
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,4.84293,57.0188,VC1,,,,,"/>
+<approved hash="113,1,4.84293,26.5388,GD1,,,,,"/>
+<approved hash="113,1,42.0412,17.5429,VA,,,,,"/>
+<approved hash="113,1,62.3612,17.5429,VB,,,,,"/>
+<approved hash="113,1,82.6812,17.5429,VC,,,,,"/>
+<approved hash="113,1,103.001,17.5429,VD,,,,,"/>
+<approved hash="113,1,125.861,17.5429,VE,,,,,"/>
+<approved hash="113,1,132.317,59.8212,VCC,,,,,"/>
+<approved hash="113,1,132.519,29.3412,GND20,,,,,"/>
+<approved hash="113,1,3.34175,93.8488,XA,,,,,"/>
+<approved hash="113,1,3.34175,88.7688,XB,,,,,"/>
+<approved hash="113,1,3.27034,83.6888,XC,,,,,"/>
+<approved hash="113,1,3.27034,78.6088,XD,,,,,"/>
+<approved hash="113,1,3.34175,73.5288,XE,,,,,"/>
+<approved hash="113,1,27.0445,94.1112,YA,,,,,"/>
+<approved hash="113,1,27.1382,89.0312,YB,,,,,"/>
+<approved hash="113,1,27.2097,83.9512,YC,,,,,"/>
+<approved hash="113,1,27.2097,78.8712,YD,,,,,"/>
+<approved hash="113,1,27.1382,73.7912,YE,,,,,"/>
+<approved hash="113,1,4.84293,18.9188,GD2,,,,,"/>
+<approved hash="113,1,132.317,21.7212,GND,,,,,"/>
+<approved hash="113,1,132.519,14.1012,GND40,,,,,"/>
+<approved hash="113,1,132.519,6.48123,GND50,,,,,"/>
+<approved hash="113,1,132.376,52.2012,VCC10,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
