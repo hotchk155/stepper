@@ -8121,6 +8121,8 @@ Based on the following sources:
 <part name="CLK_IN" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="CLK_OUT" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="GND5" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="C0805"/>
 </parts>
 <sheets>
 <sheet>
@@ -8214,6 +8216,8 @@ Based on the following sources:
 <instance part="CLK_IN" gate="G$1" x="157.48" y="-137.16" rot="R180"/>
 <instance part="CLK_OUT" gate="G$1" x="182.88" y="-137.16"/>
 <instance part="GND5" gate="G$1" x="213.36" y="27.94" rot="R270"/>
+<instance part="C2" gate="G$1" x="73.66" y="-68.58" rot="R90"/>
+<instance part="C3" gate="G$1" x="73.66" y="-116.84" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8369,11 +8373,13 @@ Based on the following sources:
 <segment>
 <pinref part="IC2" gate="A" pin="INH"/>
 <wire x1="86.36" y1="-40.64" x2="91.44" y2="-40.64" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-40.64" x2="91.44" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-40.64" x2="91.44" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="GND"/>
+<wire x1="91.44" y1="-68.58" x2="91.44" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-71.12" x2="91.44" y2="-76.2" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-76.2" x2="91.44" y2="-88.9" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="-88.9" x2="91.44" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-88.9" x2="91.44" y2="-116.84" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="-116.84" x2="91.44" y2="-119.38" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-119.38" x2="91.44" y2="-124.46" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="-124.46" x2="91.44" y2="-132.08" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="-71.12" x2="91.44" y2="-71.12" width="0.1524" layer="91"/>
@@ -8391,6 +8397,12 @@ Based on the following sources:
 <pinref part="IC3" gate="A" pin="INH"/>
 <wire x1="86.36" y1="-88.9" x2="91.44" y2="-88.9" width="0.1524" layer="91"/>
 <junction x="91.44" y="-88.9"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-116.84" x2="91.44" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="91.44" y="-116.84"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-68.58" x2="91.44" y2="-68.58" width="0.1524" layer="91"/>
+<junction x="91.44" y="-68.58"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
@@ -8453,13 +8465,21 @@ Based on the following sources:
 </segment>
 <segment>
 <pinref part="IC3" gate="P" pin="VCC"/>
-<wire x1="66.04" y1="-119.38" x2="60.96" y2="-119.38" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-119.38" x2="60.96" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="-119.38" x2="58.42" y2="-119.38" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-119.38" x2="58.42" y2="-116.84" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="P" pin="VCC"/>
-<wire x1="60.96" y1="-71.12" x2="66.04" y2="-71.12" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="-119.38" x2="60.96" y2="-132.08" width="0.1524" layer="91"/>
-<junction x="60.96" y="-119.38"/>
+<wire x1="58.42" y1="-116.84" x2="58.42" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-71.12" x2="66.04" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-119.38" x2="58.42" y2="-132.08" width="0.1524" layer="91"/>
+<junction x="58.42" y="-119.38"/>
 <label x="58.674" y="-134.62" size="1.778" layer="95"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="-116.84" x2="58.42" y2="-116.84" width="0.1524" layer="91"/>
+<junction x="58.42" y="-116.84"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="-68.58" x2="58.42" y2="-68.58" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-68.58" x2="58.42" y2="-71.12" width="0.1524" layer="91"/>
+<junction x="58.42" y="-71.12"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -8925,6 +8945,80 @@ Based on the following sources:
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,81.28,-76.2,IC2P,VEE,GND,,,"/>
+<approved hash="104,1,81.28,-124.46,IC3P,VEE,GND,,,"/>
+<approved hash="113,1,15.6295,60.96,S1,,,,,"/>
+<approved hash="113,1,25.7895,60.96,S2,,,,,"/>
+<approved hash="113,1,35.9495,60.96,S3,,,,,"/>
+<approved hash="113,1,46.1095,60.96,S4,,,,,"/>
+<approved hash="113,1,56.2695,60.96,S5,,,,,"/>
+<approved hash="113,1,66.4295,60.96,S6,,,,,"/>
+<approved hash="113,1,76.5895,60.96,S7,,,,,"/>
+<approved hash="113,1,86.7495,60.96,S8,,,,,"/>
+<approved hash="113,1,176.661,30.2429,GND,,,,,"/>
+<approved hash="113,1,29.3412,7.38293,K1,,,,,"/>
+<approved hash="113,1,39.5012,7.38293,K2,,,,,"/>
+<approved hash="113,1,49.6612,7.38293,K3,,,,,"/>
+<approved hash="113,1,59.8212,7.38293,K4,,,,,"/>
+<approved hash="113,1,69.9812,7.38293,K5,,,,,"/>
+<approved hash="113,1,80.1412,7.38293,K6,,,,,"/>
+<approved hash="113,1,90.3012,7.38293,K7,,,,,"/>
+<approved hash="113,1,19.1812,7.38293,K0,,,,,"/>
+<approved hash="113,1,158.75,71.4417,LED5,,,,,"/>
+<approved hash="113,1,158.75,61.2817,LED6,,,,,"/>
+<approved hash="113,1,158.75,53.6617,LED7,,,,,"/>
+<approved hash="113,1,158.75,43.5017,LED8,,,,,"/>
+<approved hash="113,1,144.78,72.1148,R5,,,,,"/>
+<approved hash="113,1,144.78,61.9548,R6,,,,,"/>
+<approved hash="113,1,144.78,54.3348,R7,,,,,"/>
+<approved hash="113,1,144.78,44.1748,R8,,,,,"/>
+<approved hash="113,1,126.763,69.7188,L1,,,,,"/>
+<approved hash="113,1,126.763,59.5588,L2,,,,,"/>
+<approved hash="113,1,126.763,51.9388,L3,,,,,"/>
+<approved hash="113,1,145.017,36.9612,VCC,,,,,"/>
+<approved hash="113,1,-59.0417,39.2388,DAT_IN,,,,,"/>
+<approved hash="113,1,-59.4925,26.5388,KS_CLK,,,,,"/>
+<approved hash="113,1,-8.89,1.6713,C1,,,,,"/>
+<approved hash="113,1,132.317,-138.299,KR0,,,,,"/>
+<approved hash="113,1,132.317,-130.679,KR1,,,,,"/>
+<approved hash="113,1,132.317,-123.059,KR2,,,,,"/>
+<approved hash="113,1,132.317,-115.439,KR3,,,,,"/>
+<approved hash="113,1,132.317,-107.819,KR4,,,,,"/>
+<approved hash="113,1,183.117,-100.199,KR5,,,,,"/>
+<approved hash="113,1,183.117,-92.5788,KR6,,,,,"/>
+<approved hash="113,1,183.117,-84.9588,KR7,,,,,"/>
+<approved hash="113,1,132.317,-77.3388,KR8,,,,,"/>
+<approved hash="113,1,132.317,-69.7188,KR9,,,,,"/>
+<approved hash="113,1,132.317,-62.0988,KR10,,,,,"/>
+<approved hash="113,1,132.317,-54.4788,KR11,,,,,"/>
+<approved hash="113,1,132.317,-46.8588,KR12,,,,,"/>
+<approved hash="113,1,183.117,-39.2388,KR13,,,,,"/>
+<approved hash="113,1,183.117,-31.6188,KR14,,,,,"/>
+<approved hash="113,1,50.5629,-64.9012,ANA1,,,,,"/>
+<approved hash="113,1,50.5629,-113.161,ANA0,,,,,"/>
+<approved hash="113,1,132.317,-11.2988,SELC,,,,,"/>
+<approved hash="113,1,132.317,-3.67877,SELB,,,,,"/>
+<approved hash="113,1,132.317,3.94123,SELA,,,,,"/>
+<approved hash="113,1,156.485,-48.26,R1,,,,,"/>
+<approved hash="113,1,161.565,-48.26,R2,,,,,"/>
+<approved hash="113,1,166.645,-48.26,R3,,,,,"/>
+<approved hash="113,1,156.485,-76.2,R4,,,,,"/>
+<approved hash="113,1,161.565,-76.2,R9,,,,,"/>
+<approved hash="113,1,166.645,-76.2,R10,,,,,"/>
+<approved hash="113,1,184.281,30.2429,GND1,,,,,"/>
+<approved hash="113,1,191.901,30.2429,GND2,,,,,"/>
+<approved hash="113,1,145.017,31.8812,VCC1,,,,,"/>
+<approved hash="113,1,145.017,26.8012,VCC2,,,,,"/>
+<approved hash="113,1,199.521,30.2429,GND3,,,,,"/>
+<approved hash="113,1,207.141,30.2429,GND4,,,,,"/>
+<approved hash="113,1,159.783,-128.401,OE_IN,,,,,"/>
+<approved hash="113,1,181.765,-125.599,OE_OUT,,,,,"/>
+<approved hash="113,1,-43.6836,52.2012,DAT_OUT,,,,,"/>
+<approved hash="113,1,159.372,-138.561,CLK_IN,,,,,"/>
+<approved hash="113,1,182.403,-135.759,CLK_OUT,,,,,"/>
+<approved hash="113,1,214.761,30.2429,GND5,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
