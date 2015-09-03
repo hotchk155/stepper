@@ -8056,7 +8056,7 @@ Based on the following sources:
 <part name="U$6" library="jasons_stuff" deviceset="0805DIODE" device=""/>
 <part name="U$7" library="jasons_stuff" deviceset="0805DIODE" device=""/>
 <part name="U$8" library="jasons_stuff" deviceset="0805DIODE" device=""/>
-<part name="GND" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="0V" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="K1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="K2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="K3" library="pinhead" deviceset="PINHD-1X1" device=""/>
@@ -8076,10 +8076,10 @@ Based on the following sources:
 <part name="L1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="L2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="L3" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="VCC" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="5V" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="IC1" library="74xx-eu" deviceset="74*595" device="D" technology="HC"/>
-<part name="DAT_IN" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="KS_CLK" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="DAT" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="KCK" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="IC2" library="40xx" deviceset="4051" device="D"/>
 <part name="IC3" library="40xx" deviceset="4051" device="D"/>
@@ -8098,11 +8098,11 @@ Based on the following sources:
 <part name="KR12" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="KR13" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="KR14" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="ANA1" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="ANA0" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="SELC" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="SELB" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="SELA" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="RD1" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="RD0" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="C" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="B" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="A" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R0805"/>
@@ -8115,10 +8115,10 @@ Based on the following sources:
 <part name="VCC2" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="GND3" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="GND4" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="OE_IN" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="LOE" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="OE_OUT" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="DAT_OUT" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="CLK_IN" library="pinhead" deviceset="PINHD-1X1" device=""/>
+<part name="LCK" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="CLK_OUT" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="GND5" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
@@ -8145,7 +8145,7 @@ Based on the following sources:
 <instance part="U$6" gate="G$1" x="68.58" y="53.34"/>
 <instance part="U$7" gate="G$1" x="78.74" y="53.34"/>
 <instance part="U$8" gate="G$1" x="88.9" y="53.34"/>
-<instance part="GND" gate="G$1" x="175.26" y="27.94" rot="R270"/>
+<instance part="0V" gate="G$1" x="175.26" y="27.94" rot="R270"/>
 <instance part="K1" gate="G$1" x="27.94" y="5.08" rot="R270"/>
 <instance part="K2" gate="G$1" x="38.1" y="5.08" rot="R270"/>
 <instance part="K3" gate="G$1" x="48.26" y="5.08" rot="R270"/>
@@ -8165,10 +8165,10 @@ Based on the following sources:
 <instance part="L1" gate="G$1" x="124.46" y="71.12" rot="R180"/>
 <instance part="L2" gate="G$1" x="124.46" y="60.96" rot="R180"/>
 <instance part="L3" gate="G$1" x="124.46" y="53.34" rot="R180"/>
-<instance part="VCC" gate="G$1" x="147.32" y="35.56"/>
+<instance part="5V" gate="G$1" x="147.32" y="35.56"/>
 <instance part="IC1" gate="A" x="-7.62" y="30.48"/>
-<instance part="DAT_IN" gate="G$1" x="-60.96" y="40.64" rot="R180"/>
-<instance part="KS_CLK" gate="G$1" x="-60.96" y="27.94" rot="R180"/>
+<instance part="DAT" gate="G$1" x="-60.96" y="40.64" rot="R180"/>
+<instance part="KCK" gate="G$1" x="-60.96" y="27.94" rot="R180"/>
 <instance part="IC1" gate="P" x="-7.62" y="7.62" rot="R270"/>
 <instance part="C1" gate="G$1" x="-10.16" y="0" rot="R90"/>
 <instance part="IC2" gate="A" x="73.66" y="-48.26" rot="R180"/>
@@ -8190,11 +8190,11 @@ Based on the following sources:
 <instance part="KR12" gate="G$1" x="134.62" y="-48.26"/>
 <instance part="KR13" gate="G$1" x="185.42" y="-40.64"/>
 <instance part="KR14" gate="G$1" x="185.42" y="-33.02"/>
-<instance part="ANA1" gate="G$1" x="48.26" y="-63.5" rot="R180"/>
-<instance part="ANA0" gate="G$1" x="48.26" y="-111.76" rot="R180"/>
-<instance part="SELC" gate="G$1" x="134.62" y="-12.7"/>
-<instance part="SELB" gate="G$1" x="134.62" y="-5.08"/>
-<instance part="SELA" gate="G$1" x="134.62" y="2.54"/>
+<instance part="RD1" gate="G$1" x="48.26" y="-63.5" rot="R180"/>
+<instance part="RD0" gate="G$1" x="48.26" y="-111.76" rot="R180"/>
+<instance part="C" gate="G$1" x="134.62" y="-12.7"/>
+<instance part="B" gate="G$1" x="134.62" y="-5.08"/>
+<instance part="A" gate="G$1" x="134.62" y="2.54"/>
 <instance part="R1" gate="G$1" x="157.48" y="-48.26" rot="R90"/>
 <instance part="R2" gate="G$1" x="162.56" y="-48.26" rot="R90"/>
 <instance part="R3" gate="G$1" x="167.64" y="-48.26" rot="R90"/>
@@ -8207,13 +8207,13 @@ Based on the following sources:
 <instance part="VCC2" gate="G$1" x="147.32" y="25.4"/>
 <instance part="GND3" gate="G$1" x="198.12" y="27.94" rot="R270"/>
 <instance part="GND4" gate="G$1" x="205.74" y="27.94" rot="R270"/>
-<instance part="OE_IN" gate="G$1" x="157.48" y="-127" rot="R180"/>
+<instance part="LOE" gate="G$1" x="157.48" y="-127" rot="R180"/>
 <instance part="OE_OUT" gate="G$1" x="182.88" y="-127"/>
 <instance part="DAT_OUT" gate="G$1" x="-43.18" y="50.8" smashed="yes">
 <attribute name="NAME" x="-49.53" y="53.975" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-49.53" y="45.72" size="1.778" layer="96"/>
 </instance>
-<instance part="CLK_IN" gate="G$1" x="157.48" y="-137.16" rot="R180"/>
+<instance part="LCK" gate="G$1" x="157.48" y="-137.16" rot="R180"/>
 <instance part="CLK_OUT" gate="G$1" x="182.88" y="-137.16"/>
 <instance part="GND5" gate="G$1" x="213.36" y="27.94" rot="R270"/>
 <instance part="C2" gate="G$1" x="73.66" y="-68.58" rot="R90"/>
@@ -8333,7 +8333,7 @@ Based on the following sources:
 <wire x1="162.56" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 <junction x="175.26" y="53.34"/>
 <label x="172.72" y="73.66" size="1.778" layer="95"/>
-<pinref part="GND" gate="G$1" pin="1"/>
+<pinref part="0V" gate="G$1" pin="1"/>
 <wire x1="175.26" y1="43.18" x2="175.26" y2="30.48" width="0.1524" layer="91"/>
 <junction x="175.26" y="43.18"/>
 <pinref part="GND2" gate="G$1" pin="1"/>
@@ -8434,7 +8434,7 @@ Based on the following sources:
 <wire x1="137.16" y1="43.18" x2="127" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="43.18" x2="137.16" y2="35.56" width="0.1524" layer="91"/>
 <junction x="137.16" y="43.18"/>
-<pinref part="VCC" gate="G$1" pin="1"/>
+<pinref part="5V" gate="G$1" pin="1"/>
 <wire x1="137.16" y1="35.56" x2="137.16" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="30.48" x2="137.16" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="25.4" x2="137.16" y2="12.7" width="0.1524" layer="91"/>
@@ -8700,7 +8700,7 @@ Based on the following sources:
 </net>
 <net name="DAT_IN" class="0">
 <segment>
-<pinref part="DAT_IN" gate="G$1" pin="1"/>
+<pinref part="DAT" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="A" pin="SER"/>
 <wire x1="-58.42" y1="40.64" x2="-50.8" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="DAT_OUT" gate="G$1" pin="1"/>
@@ -8712,7 +8712,7 @@ Based on the following sources:
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="KS_CLK" gate="G$1" pin="1"/>
+<pinref part="KCK" gate="G$1" pin="1"/>
 <pinref part="IC1" gate="A" pin="RCK"/>
 <wire x1="-58.42" y1="27.94" x2="-30.48" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="SCK"/>
@@ -8730,7 +8730,7 @@ Based on the following sources:
 <pinref part="IC2" gate="A" pin="C"/>
 <wire x1="86.36" y1="-33.02" x2="99.06" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="99.06" y="-33.02"/>
-<pinref part="SELC" gate="G$1" pin="1"/>
+<pinref part="C" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="-12.7" x2="99.06" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="-12.7" x2="99.06" y2="-33.02" width="0.1524" layer="91"/>
 </segment>
@@ -8743,7 +8743,7 @@ Based on the following sources:
 <pinref part="IC2" gate="A" pin="B"/>
 <wire x1="86.36" y1="-35.56" x2="96.52" y2="-35.56" width="0.1524" layer="91"/>
 <junction x="96.52" y="-35.56"/>
-<pinref part="SELB" gate="G$1" pin="1"/>
+<pinref part="B" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="-5.08" x2="96.52" y2="-5.08" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="-5.08" x2="96.52" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
@@ -8903,14 +8903,14 @@ Based on the following sources:
 </net>
 <net name="N$44" class="0">
 <segment>
-<pinref part="ANA0" gate="G$1" pin="1"/>
+<pinref part="RD0" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="A" pin="X"/>
 <wire x1="50.8" y1="-111.76" x2="60.96" y2="-111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="ANA1" gate="G$1" pin="1"/>
+<pinref part="RD1" gate="G$1" pin="1"/>
 <pinref part="IC2" gate="A" pin="X"/>
 <wire x1="50.8" y1="-63.5" x2="60.96" y2="-63.5" width="0.1524" layer="91"/>
 </segment>
@@ -8920,7 +8920,7 @@ Based on the following sources:
 <pinref part="IC2" gate="A" pin="A"/>
 <wire x1="86.36" y1="-38.1" x2="93.98" y2="-38.1" width="0.1524" layer="91"/>
 <junction x="93.98" y="-38.1"/>
-<pinref part="SELA" gate="G$1" pin="1"/>
+<pinref part="A" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="2.54" x2="93.98" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="2.54" x2="93.98" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="-86.36" x2="93.98" y2="-38.1" width="0.1524" layer="91"/>
@@ -8930,14 +8930,14 @@ Based on the following sources:
 </net>
 <net name="N$21" class="0">
 <segment>
-<pinref part="OE_IN" gate="G$1" pin="1"/>
+<pinref part="LOE" gate="G$1" pin="1"/>
 <pinref part="OE_OUT" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="-127" x2="180.34" y2="-127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="CLK_IN" gate="G$1" pin="1"/>
+<pinref part="LCK" gate="G$1" pin="1"/>
 <pinref part="CLK_OUT" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="-137.16" x2="180.34" y2="-137.16" width="0.1524" layer="91"/>
 </segment>
