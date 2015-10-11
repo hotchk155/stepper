@@ -8048,14 +8048,14 @@ Based on the following sources:
 <part name="S6" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S7" library="switch-omron" deviceset="40-XX" device=""/>
 <part name="S8" library="switch-omron" deviceset="40-XX" device=""/>
-<part name="U$1" library="jasons_stuff" deviceset="0805DIODE" device=""/>
-<part name="U$2" library="jasons_stuff" deviceset="0805DIODE" device=""/>
-<part name="U$3" library="jasons_stuff" deviceset="0805DIODE" device=""/>
-<part name="U$4" library="jasons_stuff" deviceset="0805DIODE" device=""/>
-<part name="U$5" library="jasons_stuff" deviceset="0805DIODE" device=""/>
-<part name="U$6" library="jasons_stuff" deviceset="0805DIODE" device=""/>
-<part name="U$7" library="jasons_stuff" deviceset="0805DIODE" device=""/>
-<part name="U$8" library="jasons_stuff" deviceset="0805DIODE" device=""/>
+<part name="D6" library="jasons_stuff" deviceset="0805DIODE" device=""/>
+<part name="D7" library="jasons_stuff" deviceset="0805DIODE" device=""/>
+<part name="D8" library="jasons_stuff" deviceset="0805DIODE" device=""/>
+<part name="D1" library="jasons_stuff" deviceset="0805DIODE" device=""/>
+<part name="D2" library="jasons_stuff" deviceset="0805DIODE" device=""/>
+<part name="D3" library="jasons_stuff" deviceset="0805DIODE" device=""/>
+<part name="D4" library="jasons_stuff" deviceset="0805DIODE" device=""/>
+<part name="D5" library="jasons_stuff" deviceset="0805DIODE" device=""/>
 <part name="0V" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="K1" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="K2" library="pinhead" deviceset="PINHD-1X1" device=""/>
@@ -8065,10 +8065,10 @@ Based on the following sources:
 <part name="K6" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="K7" library="pinhead" deviceset="PINHD-1X1" device=""/>
 <part name="K0" library="pinhead" deviceset="PINHD-1X1" device=""/>
-<part name="LED5" library="led" deviceset="LED" device="3MM"/>
-<part name="LED6" library="led" deviceset="LED" device="3MM"/>
-<part name="LED7" library="led" deviceset="LED" device="3MM"/>
-<part name="LED8" library="led" deviceset="LED" device="3MM"/>
+<part name="LED3" library="led" deviceset="LED" device="3MM"/>
+<part name="LED4" library="led" deviceset="LED" device="3MM"/>
+<part name="LED2" library="led" deviceset="LED" device="3MM"/>
+<part name="LED1" library="led" deviceset="LED" device="3MM"/>
 <part name="R5" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="R6" library="rcl" deviceset="R-EU_" device="R0805"/>
 <part name="R7" library="rcl" deviceset="R-EU_" device="R0805"/>
@@ -8137,14 +8137,14 @@ Based on the following sources:
 <instance part="S6" gate="1" x="68.58" y="60.96"/>
 <instance part="S7" gate="1" x="78.74" y="60.96"/>
 <instance part="S8" gate="1" x="88.9" y="60.96"/>
-<instance part="U$1" gate="G$1" x="17.78" y="53.34"/>
-<instance part="U$2" gate="G$1" x="27.94" y="53.34"/>
-<instance part="U$3" gate="G$1" x="38.1" y="53.34"/>
-<instance part="U$4" gate="G$1" x="48.26" y="53.34"/>
-<instance part="U$5" gate="G$1" x="58.42" y="53.34"/>
-<instance part="U$6" gate="G$1" x="68.58" y="53.34"/>
-<instance part="U$7" gate="G$1" x="78.74" y="53.34"/>
-<instance part="U$8" gate="G$1" x="88.9" y="53.34"/>
+<instance part="D6" gate="G$1" x="17.78" y="53.34"/>
+<instance part="D7" gate="G$1" x="27.94" y="53.34"/>
+<instance part="D8" gate="G$1" x="38.1" y="53.34"/>
+<instance part="D1" gate="G$1" x="48.26" y="53.34"/>
+<instance part="D2" gate="G$1" x="58.42" y="53.34"/>
+<instance part="D3" gate="G$1" x="68.58" y="53.34"/>
+<instance part="D4" gate="G$1" x="78.74" y="53.34"/>
+<instance part="D5" gate="G$1" x="88.9" y="53.34"/>
 <instance part="0V" gate="G$1" x="175.26" y="27.94" rot="R270"/>
 <instance part="K1" gate="G$1" x="27.94" y="5.08" rot="R270"/>
 <instance part="K2" gate="G$1" x="38.1" y="5.08" rot="R270"/>
@@ -8154,10 +8154,10 @@ Based on the following sources:
 <instance part="K6" gate="G$1" x="78.74" y="5.08" rot="R270"/>
 <instance part="K7" gate="G$1" x="88.9" y="5.08" rot="R270"/>
 <instance part="K0" gate="G$1" x="17.78" y="5.08" rot="R270"/>
-<instance part="LED5" gate="G$1" x="157.48" y="71.12" rot="R90"/>
-<instance part="LED6" gate="G$1" x="157.48" y="60.96" rot="R90"/>
-<instance part="LED7" gate="G$1" x="157.48" y="53.34" rot="R90"/>
-<instance part="LED8" gate="G$1" x="157.48" y="43.18" rot="R90"/>
+<instance part="LED3" gate="G$1" x="157.48" y="71.12" rot="R90"/>
+<instance part="LED4" gate="G$1" x="157.48" y="60.96" rot="R90"/>
+<instance part="LED2" gate="G$1" x="157.48" y="53.34" rot="R90"/>
+<instance part="LED1" gate="G$1" x="157.48" y="43.18" rot="R90"/>
 <instance part="R5" gate="G$1" x="144.78" y="71.12"/>
 <instance part="R6" gate="G$1" x="144.78" y="60.96"/>
 <instance part="R7" gate="G$1" x="144.78" y="53.34"/>
@@ -8225,7 +8225,7 @@ Based on the following sources:
 <net name="N$2" class="0">
 <segment>
 <pinref part="S1" gate="1" pin="P"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="D6" gate="G$1" pin="P$2"/>
 <wire x1="17.78" y1="55.88" x2="17.78" y2="53.848" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P1"/>
 <wire x1="20.32" y1="55.88" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
@@ -8234,7 +8234,7 @@ Based on the following sources:
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
+<pinref part="D7" gate="G$1" pin="P$2"/>
 <pinref part="S2" gate="1" pin="P"/>
 <wire x1="27.94" y1="53.848" x2="27.94" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="S2" gate="1" pin="P1"/>
@@ -8244,7 +8244,7 @@ Based on the following sources:
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
+<pinref part="D8" gate="G$1" pin="P$2"/>
 <pinref part="S3" gate="1" pin="P"/>
 <wire x1="38.1" y1="53.848" x2="38.1" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="S3" gate="1" pin="P1"/>
@@ -8254,7 +8254,7 @@ Based on the following sources:
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
+<pinref part="D1" gate="G$1" pin="P$2"/>
 <pinref part="S4" gate="1" pin="P"/>
 <wire x1="48.26" y1="53.848" x2="48.26" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="S4" gate="1" pin="P1"/>
@@ -8264,7 +8264,7 @@ Based on the following sources:
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="P$2"/>
+<pinref part="D2" gate="G$1" pin="P$2"/>
 <pinref part="S5" gate="1" pin="P"/>
 <wire x1="58.42" y1="53.848" x2="58.42" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="S5" gate="1" pin="P1"/>
@@ -8274,7 +8274,7 @@ Based on the following sources:
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="U$6" gate="G$1" pin="P$2"/>
+<pinref part="D3" gate="G$1" pin="P$2"/>
 <pinref part="S6" gate="1" pin="P"/>
 <wire x1="68.58" y1="53.848" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="S6" gate="1" pin="P1"/>
@@ -8284,7 +8284,7 @@ Based on the following sources:
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="U$7" gate="G$1" pin="P$2"/>
+<pinref part="D4" gate="G$1" pin="P$2"/>
 <pinref part="S7" gate="1" pin="P"/>
 <wire x1="78.74" y1="53.848" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="S7" gate="1" pin="P1"/>
@@ -8294,7 +8294,7 @@ Based on the following sources:
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="U$8" gate="G$1" pin="P$2"/>
+<pinref part="D5" gate="G$1" pin="P$2"/>
 <pinref part="S8" gate="1" pin="P"/>
 <wire x1="88.9" y1="53.848" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="S8" gate="1" pin="P1"/>
@@ -8311,25 +8311,25 @@ Based on the following sources:
 <wire x1="5.08" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
 <junction x="27.94" y="38.1"/>
 <junction x="27.94" y="48.26"/>
-<pinref part="U$2" gate="G$1" pin="P$1"/>
+<pinref part="D7" gate="G$1" pin="P$1"/>
 <wire x1="27.94" y1="48.26" x2="27.94" y2="48.768" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="LED8" gate="G$1" pin="C"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
 <wire x1="162.56" y1="43.18" x2="175.26" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="43.18" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="LED3" gate="G$1" pin="C"/>
 <wire x1="175.26" y1="53.34" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="60.96" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="71.12" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="71.12" x2="175.26" y2="71.12" width="0.1524" layer="91"/>
 <junction x="175.26" y="71.12"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="LED4" gate="G$1" pin="C"/>
 <wire x1="162.56" y1="60.96" x2="175.26" y2="60.96" width="0.1524" layer="91"/>
 <junction x="175.26" y="60.96"/>
-<pinref part="LED7" gate="G$1" pin="C"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
 <wire x1="162.56" y1="53.34" x2="175.26" y2="53.34" width="0.1524" layer="91"/>
 <junction x="175.26" y="53.34"/>
 <label x="172.72" y="73.66" size="1.778" layer="95"/>
@@ -8485,7 +8485,7 @@ Based on the following sources:
 <net name="N$1" class="0">
 <segment>
 <pinref part="K0" gate="G$1" pin="1"/>
-<pinref part="U$1" gate="G$1" pin="P$1"/>
+<pinref part="D6" gate="G$1" pin="P$1"/>
 <wire x1="17.78" y1="7.62" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="QA"/>
 <wire x1="17.78" y1="40.64" x2="17.78" y2="48.26" width="0.1524" layer="91"/>
@@ -8574,28 +8574,28 @@ Based on the following sources:
 <net name="N$24" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="LED5" gate="G$1" pin="A"/>
+<pinref part="LED3" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="71.12" x2="154.94" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<pinref part="LED6" gate="G$1" pin="A"/>
+<pinref part="LED4" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="60.96" x2="154.94" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="LED7" gate="G$1" pin="A"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="53.34" x2="154.94" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
-<pinref part="LED8" gate="G$1" pin="A"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8623,7 +8623,7 @@ Based on the following sources:
 <net name="N$11" class="0">
 <segment>
 <pinref part="K2" gate="G$1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="P$1"/>
+<pinref part="D8" gate="G$1" pin="P$1"/>
 <wire x1="38.1" y1="7.62" x2="38.1" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="QC"/>
 <wire x1="38.1" y1="35.56" x2="38.1" y2="48.26" width="0.1524" layer="91"/>
@@ -8636,7 +8636,7 @@ Based on the following sources:
 <net name="N$12" class="0">
 <segment>
 <pinref part="K3" gate="G$1" pin="1"/>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
+<pinref part="D1" gate="G$1" pin="P$1"/>
 <wire x1="48.26" y1="7.62" x2="48.26" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="QD"/>
 <wire x1="48.26" y1="33.02" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
@@ -8649,7 +8649,7 @@ Based on the following sources:
 <net name="N$13" class="0">
 <segment>
 <pinref part="K4" gate="G$1" pin="1"/>
-<pinref part="U$5" gate="G$1" pin="P$1"/>
+<pinref part="D2" gate="G$1" pin="P$1"/>
 <wire x1="58.42" y1="7.62" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="QE"/>
 <wire x1="58.42" y1="30.48" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
@@ -8662,7 +8662,7 @@ Based on the following sources:
 <net name="N$14" class="0">
 <segment>
 <pinref part="K5" gate="G$1" pin="1"/>
-<pinref part="U$6" gate="G$1" pin="P$1"/>
+<pinref part="D3" gate="G$1" pin="P$1"/>
 <wire x1="68.58" y1="7.62" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="QF"/>
 <wire x1="68.58" y1="27.94" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
@@ -8675,7 +8675,7 @@ Based on the following sources:
 <net name="N$15" class="0">
 <segment>
 <pinref part="K6" gate="G$1" pin="1"/>
-<pinref part="U$7" gate="G$1" pin="P$1"/>
+<pinref part="D4" gate="G$1" pin="P$1"/>
 <wire x1="78.74" y1="7.62" x2="78.74" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="QG"/>
 <wire x1="78.74" y1="25.4" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
@@ -8688,7 +8688,7 @@ Based on the following sources:
 <net name="N$16" class="0">
 <segment>
 <pinref part="K7" gate="G$1" pin="1"/>
-<pinref part="U$8" gate="G$1" pin="P$1"/>
+<pinref part="D5" gate="G$1" pin="P$1"/>
 <wire x1="88.9" y1="7.62" x2="88.9" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="A" pin="QH"/>
 <wire x1="88.9" y1="22.86" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
@@ -8956,7 +8956,7 @@ Based on the following sources:
 <approved hash="113,1,66.4295,60.96,S6,,,,,"/>
 <approved hash="113,1,76.5895,60.96,S7,,,,,"/>
 <approved hash="113,1,86.7495,60.96,S8,,,,,"/>
-<approved hash="113,1,176.661,30.2429,GND,,,,,"/>
+<approved hash="113,1,176.661,30.2429,0V,,,,,"/>
 <approved hash="113,1,29.3412,7.38293,K1,,,,,"/>
 <approved hash="113,1,39.5012,7.38293,K2,,,,,"/>
 <approved hash="113,1,49.6612,7.38293,K3,,,,,"/>
@@ -8965,10 +8965,10 @@ Based on the following sources:
 <approved hash="113,1,80.1412,7.38293,K6,,,,,"/>
 <approved hash="113,1,90.3012,7.38293,K7,,,,,"/>
 <approved hash="113,1,19.1812,7.38293,K0,,,,,"/>
-<approved hash="113,1,158.75,71.4417,LED5,,,,,"/>
-<approved hash="113,1,158.75,61.2817,LED6,,,,,"/>
-<approved hash="113,1,158.75,53.6617,LED7,,,,,"/>
-<approved hash="113,1,158.75,43.5017,LED8,,,,,"/>
+<approved hash="113,1,158.75,71.4417,LED3,,,,,"/>
+<approved hash="113,1,158.75,61.2817,LED4,,,,,"/>
+<approved hash="113,1,158.75,53.6617,LED2,,,,,"/>
+<approved hash="113,1,158.75,43.5017,LED1,,,,,"/>
 <approved hash="113,1,144.78,72.1148,R5,,,,,"/>
 <approved hash="113,1,144.78,61.9548,R6,,,,,"/>
 <approved hash="113,1,144.78,54.3348,R7,,,,,"/>
@@ -8976,9 +8976,9 @@ Based on the following sources:
 <approved hash="113,1,126.763,69.7188,L1,,,,,"/>
 <approved hash="113,1,126.763,59.5588,L2,,,,,"/>
 <approved hash="113,1,126.763,51.9388,L3,,,,,"/>
-<approved hash="113,1,145.017,36.9612,VCC,,,,,"/>
-<approved hash="113,1,-59.0417,39.2388,DAT_IN,,,,,"/>
-<approved hash="113,1,-59.4925,26.5388,KS_CLK,,,,,"/>
+<approved hash="113,1,145.017,36.9612,5V,,,,,"/>
+<approved hash="113,1,-58.6571,39.2388,DAT,,,,,"/>
+<approved hash="113,1,-58.6571,26.5388,KCK,,,,,"/>
 <approved hash="113,1,-8.89,1.6713,C1,,,,,"/>
 <approved hash="113,1,132.317,-138.299,KR0,,,,,"/>
 <approved hash="113,1,132.317,-130.679,KR1,,,,,"/>
@@ -8995,11 +8995,11 @@ Based on the following sources:
 <approved hash="113,1,132.317,-46.8588,KR12,,,,,"/>
 <approved hash="113,1,183.117,-39.2388,KR13,,,,,"/>
 <approved hash="113,1,183.117,-31.6188,KR14,,,,,"/>
-<approved hash="113,1,50.5629,-64.9012,ANA1,,,,,"/>
-<approved hash="113,1,50.5629,-113.161,ANA0,,,,,"/>
-<approved hash="113,1,132.317,-11.2988,SELC,,,,,"/>
-<approved hash="113,1,132.317,-3.67877,SELB,,,,,"/>
-<approved hash="113,1,132.317,3.94123,SELA,,,,,"/>
+<approved hash="113,1,50.5629,-64.9012,RD1,,,,,"/>
+<approved hash="113,1,50.5629,-113.161,RD0,,,,,"/>
+<approved hash="113,1,132.317,-11.2988,C,,,,,"/>
+<approved hash="113,1,132.317,-3.67877,B,,,,,"/>
+<approved hash="113,1,132.317,3.94123,A,,,,,"/>
 <approved hash="113,1,156.485,-48.26,R1,,,,,"/>
 <approved hash="113,1,161.565,-48.26,R2,,,,,"/>
 <approved hash="113,1,166.645,-48.26,R3,,,,,"/>
@@ -9012,12 +9012,14 @@ Based on the following sources:
 <approved hash="113,1,145.017,26.8012,VCC2,,,,,"/>
 <approved hash="113,1,199.521,30.2429,GND3,,,,,"/>
 <approved hash="113,1,207.141,30.2429,GND4,,,,,"/>
-<approved hash="113,1,159.783,-128.401,OE_IN,,,,,"/>
+<approved hash="113,1,159.783,-128.401,LOE,,,,,"/>
 <approved hash="113,1,181.765,-125.599,OE_OUT,,,,,"/>
 <approved hash="113,1,-43.6836,52.2012,DAT_OUT,,,,,"/>
-<approved hash="113,1,159.372,-138.561,CLK_IN,,,,,"/>
+<approved hash="113,1,159.783,-138.561,LCK,,,,,"/>
 <approved hash="113,1,182.403,-135.759,CLK_OUT,,,,,"/>
 <approved hash="113,1,214.761,30.2429,GND5,,,,,"/>
+<approved hash="113,1,74.93,-66.9087,C2,,,,,"/>
+<approved hash="113,1,74.93,-115.169,C3,,,,,"/>
 </errors>
 </schematic>
 </drawing>
